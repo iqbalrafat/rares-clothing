@@ -1,40 +1,19 @@
 import React from 'react'
 import './homepage.styles.scss'
+import MenuItem from './menu-item.component'
 
 const HomePage=()=>(
   <div className="homepage">
     <h1>Welcome To My Home Page</h1>
+    
     <div className="directory-menu">
-      <div className="menu-item">
-          <div className="content">
-            <div className="title">HATS</div>   
-            <span className="subtitle">SHOP NOW</span>
-          </div>          
-      </div>
-      <div className="menu-item">
-          <div className="content">
-            <div className="title">JACKETS</div>   
-            <span className="subtitle">SHOP NOW</span>
-          </div>          
-      </div>
-      <div className="menu-item">
-          <div className="content">
-            <div className="title">SHOES</div>   
-            <span className="subtitle">SHOP NOW</span>
-          </div>          
-      </div>
-      <div className="menu-item">
-          <div className="content">
-            <div className="title">WOMEN</div>   
-            <span className="subtitle">SHOP NOW</span>
-          </div>          
-      </div>
-      <div className="menu-item">
-          <div className="content">
-            <div className="title">MEN</div>   
-            <span className="subtitle">SHOP NOW</span>
-          </div>          
-      </div>
+     
+       <MenuItem title="Hats" />
+       <MenuItem title="Jackets" />
+       <MenuItem title="Shoes" />
+       <MenuItem title="Women" />
+       <MenuItem title="Men" />     
+     
     </div>
   </div>
 )
