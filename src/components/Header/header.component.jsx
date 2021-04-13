@@ -8,7 +8,7 @@ function Header(props) {
       <Link to="/" className="logo-container">
         <Logo className="logo" />
       </Link>
-      <div className="option">
+      <div className="options">
         <Link to="/shop" className="option">
           SHOP
         </Link>

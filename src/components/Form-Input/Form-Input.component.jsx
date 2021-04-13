@@ -13,7 +13,7 @@ return(
       />
     {
       label ?(
-        <label className={`${value.length ? 'shrink': ' '} form-label`}>
+        <label className={`${value.length ? 'shrink': ' '} form-input-label`}>
            {label}
         </label>
        ):null
